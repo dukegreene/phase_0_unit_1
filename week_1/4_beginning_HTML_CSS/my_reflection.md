@@ -1,8 +1,14 @@
 ## 4.[Beginning HTML and CSS](4_beginning_HTML_CSS/readme.mc) Reflection
 
-* What makes sense to your about HTML? What doesn't? 
+* What makes sense to you about HTML? What doesn't? 
 * What seems good and bad about HTML?
 * Did you have an "aha" moments or were any concepts solidified?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-<!-- Add your reflection here. Remove the comment markers -->
+I feel like I understand HTML's structure and conventions - nesting, opening and closing tags, the function of the header vs. the body. I get most of how tables and lists are handled vs how simpler, standalone elements work. I'm still scratching my head over why some tags are self-closing and others aren't. I also don't understand the differences between different HTML versions, or how the Web knows what the default version is and how to load HTML5 instead of some older version. The biggest thing that doesn't make sense to me is how css, images, etc are stores on the Web for reference by the HTML document. Locally, with folders, it's easy to visualize how the process works. I just don't know how what I've done in today's experiments would translate to real-life application on the Web.
+
+"Good" things about HTML: Simple and solid parent-child structure, style elements are generally named clearly (e.g. "font-family", "color"), easy to check progress mid-project by opening in a browser window, highly customizable, easy to scan visually. "Bad" things: Tag keystrokes feel awkward (especially closing tags), the smallest syntax errors can result in huge changes to the final product, self-closing tags save time but require more memorization than a unified tag rule, if you decide you want to change a tag (e.g. h6 => h5) you need to change it on both sides, which feels inefficient.
+
+My big "aha" was when I realized how simple it was to link to an external css file. I had been entering the entire file path instead of assuming the html file knew where it was. All I had to do was href="stylesheets/dbc1.css" and I was golden. That felt good. I had about a thousand other mini-ahas, but they all had to do with realizing I had forgotten a semicolon in CSS. Overall, I got better at searching for missing pieces in my knowledge. I'm proud to say that most of the work I did with links, images, and style resulted from Googling and experimentation. I'm starting to peek out of my perfectionist bunker, gradually tolerating more uncertainty and seeing the use of external information sources as workflow improvement instead of signs of weakness.
+
+Most of my external searching took place at w3schools.com. That's where I got my style questions answered. And it's not on-topic, but I did refresh my knowledge of tables here: http://www.mediacollege.com/internet/html/tables.html
