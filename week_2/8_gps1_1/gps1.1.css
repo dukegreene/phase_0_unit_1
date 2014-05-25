@@ -1,1 +1,89 @@
-/* include your css here */
+body {
+            font-family: 'Istok Web', sans-serif;
+        }
+    
+        header h1 {
+            text-align: center;
+            color: #ff0033;
+            position:relative;
+            top: -16px;
+        }
+    
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            z-axis: 1;
+            float: center;
+            text-align: center;
+        }
+        
+        #background img {
+            position: fixed;
+            width: 100%;
+            height: 125px;
+            top: 0px;
+            z-axis: -1;
+            opacity: .5;
+        }
+        
+        article {
+            position: relative;
+            top: 150px;
+            width: 70%;
+        }
+        
+        article h1 {
+            float: left;
+        }
+        
+        article h4 {
+            float: right;
+        }
+        
+        article p {
+            position: relative;
+            clear: left;
+        }
+        
+        article ul {
+            position: relative;
+            clear: left;
+        }
+    
+        #sidebar {
+            width: 25%;
+            position: relative;
+            top: 100px;
+            float: right;
+        }
+        
+        #bottom {
+            display: flex
+            flex-direction: column;
+            min-height: 100%;
+        }
+        
+        footer {
+            flex: 1;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            display: inline;
+            left: 0;
+        }
+        
+        footer p {
+            width: 50%;
+            bottom: 0px;
+        }
+        
+        footer a {
+            width: 50%;
+            position: relative;
+            display: inline-block;
+        }
+        
+        #sidebar h3 {
+            text-align: center;
+        }
