@@ -1,7 +1,12 @@
-// I paired [by myself, with:] on this challenge.
+// I paired by myself on this challenge.
 
 // __________________________________________
 // Write your code below.
+// 
+// assign 7 to secretNumber variable to pass tests 1 and 2
+// assign 'just open the door' to password variable to pass tests 3 and 4
+// assign 2===3 to allowedIn variable to pass tests 5 and 6
+// assign array with 'John' as first item and 'Mary' as fourth to members variable to pass tests 7 - 9
 
 var secretNumber = 7
 var password = 'just open the door'
