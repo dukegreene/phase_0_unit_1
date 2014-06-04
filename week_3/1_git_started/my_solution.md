@@ -61,6 +61,10 @@ git merge combines changes with local work once you're ready
 
 git commit saves local changes to a new commit.
 
-## Release 5: Reflection
+## Release 5: Errors you encountered
+None
+
+## Release 6: Reflection
 
 I think I understand this concept pretty well. I'm still trying to wrap my head around what branches actually are as far as how the code is handled. I'll have to do more reading to pick up on that. One place where I struggled was forgetting to git init at the start of my work, and I can see myself forgetting to fetch/pull changes to the syllabus in the future. But this felt like a fairly easy exercise.
+
