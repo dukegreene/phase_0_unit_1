@@ -26,6 +26,64 @@
 
 // create objects
 
+// var medic = {
+//   name: "Player",
+//   inventory: {},
+//   xPos: 4,
+//   yPos: 3
+// }
+
+// var salve = {name: "Salve"}
+
+// var table = {
+//   name: "Table",
+//   inventory: salve,
+//   xPos: 6,
+//   yPos: 2
+// }
+
+// var patient = {
+//   name: "Patient",
+//   inventory: {},
+//   health: "sick,",
+//   xPos: 3,
+//   yPos: 4
+// }
+
+// // give instructions
+ 
+// console.log("You are a medic and you must heal a nearby patient. A bunch of salve sits on a table across the room. Can you go get it?");
+// console.log("RULES: You're at (4, 3). Table is at (6, 2). Patient is at (3, 4). Move around and help the patient!");
+// // play game
+
+// while ((patient.inventory !== salve) || (patient.health !== "healthy")) {
+  
+//   // console.log(medic.xPos) # for testing
+//   // console.log(medic.yPos)
+
+//   var x = prompt('Enter X Coordinate:')
+//   var y = prompt('Enter Y Coordinate:')
+//   medic.xPos = x
+//   medic.yPos = y
+
+//   if (medic.xPos == table.xPos && medic.yPos == table.yPos) {
+//     console.log("Here's the medicine table. You got some salve! The patient in (3, 4) sure could use some salve!");
+//     table.inventory = {};
+//     medic.inventory = salve;
+//   } else if (medic.xPos == patient.xPos && medic.yPos == patient.yPos) {
+//     console.log("Here is the patient.");
+//     if (medic.inventory == salve) {
+//       patient.inventory = salve;
+//       patient.health = "healthy";
+//       console.log("You gave the patient the salve and they feel much better. Great job!");
+//     } else { console.log("The patient still needs salve from (6, 2).") }
+//   } else {
+//     console.log("There's nothing of interest here...The medicine table is at (6, 2) and the patient is at (3, 4).")
+//   }
+// }
+
+// Refactored Code
+
 var medic = {
   name: "Player",
   inventory: {},
@@ -82,17 +140,18 @@ while ((patient.inventory !== salve) || (patient.health !== "healthy")) {
   }
 }
 
-// Refactored Code
-
-
-
 
 
 
 // Reflection
 // 
-// 
-// 
+// I kept this one simple after shooting way too high at first. I was going to build a 3 x 4 grid and allow for movement by 
+// entering cardinal directions, but it was just too big for me to wrap my brain around. I like that this solution
+// uses conditional statements to create a simple game. A lot of the object property value pairs aren't being used,
+// but in a bigger game with more levels, the player might meet a con artist who changes his identity ("name")
+// or something. The hardest part of this was just getting out of my head and digging into the pseudocode.
+// I couldn't think if anything to refactor here. I'm not comfortable at all with java syntax and when U get something working
+// I don't want to break it.
 // 
 // 
 // 
